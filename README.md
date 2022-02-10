@@ -1,1 +1,7 @@
-# senac-php-2201
+# LEIA-ME #
+
+Linguagens de Servidor
+
+# OBA PHP! #
+
+Meu readme.
