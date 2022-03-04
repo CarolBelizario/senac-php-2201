@@ -17,7 +17,7 @@ function cadastraAluno(array $aluno):bool /*array pois em $aluno eu queria passa
    }
 }
 
-$funcionou = cadastraAluno(['matricula' => 98237, 'nome' => 'Isonequex']);
+$funcionou = cadastraAluno(['matricula' => 1786, 'nome' => 'João']);
 
 /*$aluno = ['nome' => 'Matheus', 'matricula' => '537529'];*/
 
