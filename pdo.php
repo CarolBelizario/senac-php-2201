@@ -25,7 +25,7 @@ if($inseriu){
 //FIM INSERT
 
 //DELETE
-$apagou = $bd->exec('DELETE FROM tarefas WHERE id=13');
+$apagou = $bd->exec('DELETE FROM tarefas WHERE id=13');//posição do elemento na tabela
 //FIM DELETE
 if($inseriu){
  
