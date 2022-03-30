@@ -6,9 +6,9 @@ function cadastraAluno(array $aluno):bool /*array pois em $aluno eu queria passa
 
     /*echo "Aluno {$nome['nome']} cadastrado"; - IMPRIME DESSE JEITO*/ 
 
-   $f = fopen( 'alunos.csv' , 'a');
+   $f = fopen( 'alunos.csv' , 'a');//liga o banco de dados
    $escreveu = fwrite( $f, "{$aluno['matricula']};\"{$aluno['nome']}\"\n"); /*BARRA INVERTIDA CARACTERE DE ESCAPE */
-   fclose($f);
+   fclose($f);//fecha a conexão com o banco
 
    if($escreveu){
        return true;
