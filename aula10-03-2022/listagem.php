@@ -11,7 +11,7 @@ echo "<table border = '1'>
              </tr>";
 
 
-while ( $linha = fgets($f) ){
+while ( $linha = fgets($f) ){//lê uma linha do ponteiro de um arquivo
 
     $campos = explode(',', $linha);//define o separador para definir bonitinho 
     $nome = $campos[0];
