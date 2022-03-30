@@ -91,7 +91,7 @@ $semana = [ 'DOM' => ['Domingo','Domingo'],
             'SEX' => ['Sexta','Sexta-feira'],
             'SAB' => ['Sábado','Sábado']];
 
-foreach($semana as $sigla => $diaSemana){
+foreach($semana as $sigla => $diaSemana){//cada volta do laço
 
     echo "$sigla: {$diaSemana[0]} ou {$diaSemana[1]} <br>";
 
