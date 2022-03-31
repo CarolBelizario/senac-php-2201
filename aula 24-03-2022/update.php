@@ -6,12 +6,12 @@
 */
 
 
-//ligar o php ao banco de dados
-
+//atribuição de variáveis
 $dsn = 'mysql:dbname=phpLinguagemServidor;host=localhost';
 $user = "root";
 $pass = "";
 
+//ligar o php ao banco de dados
 $bd = new PDO($dsn, $user, $pass);
 // FIM da conexão
 
